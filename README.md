@@ -23,7 +23,9 @@ The key features include:
 ## Data Preprocessing
 
 - Zero values in columns that should not be zero (Glucose, BloodPressure, SkinThickness, Insulin, BMI) are replaced with the median of non-zero values in the respective column.
-- Special adjustment: The first row's `Glucose` value is replaced with the maximum `Glucose` value, and for records with the lowest `Age`, the `Glucose` value is replaced with the minimum `Glucose`.
+- Special adjustment: The first row's `Glucose` value is replaced with the maximum `Glucose` value.
+- And for records with the lowest `Age`, the `Glucose` value is replaced with the minimum `Glucose`.
+
 
 ---
 
