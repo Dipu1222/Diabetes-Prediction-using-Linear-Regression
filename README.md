@@ -1,4 +1,3 @@
-readme_content = """
 # Diabetes Prediction using Linear Regression
 
 This project demonstrates how to predict the presence of diabetes using a Linear Regression model trained on a diabetes dataset. The project involves preprocessing data, training a model, and evaluating its performance.
